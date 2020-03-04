@@ -71,3 +71,21 @@ git stash clear
 git stash pop - apaga
 
 https://www.conventionalcommits.org/en/v1.0.0/
+
+npm i git-commit-msg-linter -D
+
+git log --oneline
+git log --pretty=format:'%C(blue)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+
+
+Tag - criar tag
+lightweight e anotatte tag
+
+git tag 1.0
+git show
+
+remover
+git tag -d 1.0
+
+
+
