@@ -33,3 +33,20 @@ git status -s
 staged area
 git add .
 git config --local --edit
+
+
+Arquivos modificados, arquivos reconhecidos pelo git
+git status -s
+M
+fica na unstaged area
+
+
+alias
+[alias]
+	s = !git status -s
+ou
+    s = status -s
+
+
+
+npm init -y
