@@ -1,0 +1,29 @@
+workspace, local repository e remote repository
+git init
+git remote -v
+git remote add origin https://github.com/RicardoBastos/Git-Advanced.git
+git config --list
+
+configuracao do sistema, usuario e projeto
+sistema eh global
+usuario para qualquer projeto com o usuario
+projeto somente projeto
+
+
+git config --system --edit
+:q!
+
+git config --global --edit
+
+ git config --global core.editor code
+ abrir pelo vs code
+
+
+git config --local --edit
+ou
+git config --edit
+[user]
+email e nome para projetos de empresa rodando no computador pessoal
+
+
+
