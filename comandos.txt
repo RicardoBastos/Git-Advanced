@@ -50,3 +50,24 @@ ou
 
 
 npm init -y
+
+git add --all ou -A
+arquivos dentro das pastas que git . não mostra
+
+
+juntar commits
+git commit --amend --no-edit
+git log para verificar
+
+
+stash
+git add .
+git stash
+
+
+git stash list
+git stash apply - continua com stash
+git stash clear
+git stash pop - apaga
+
+https://www.conventionalcommits.org/en/v1.0.0/
