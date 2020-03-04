@@ -88,4 +88,13 @@ remover
 git tag -d 1.0
 
 
+taguear commits anteriores
+git tag -a "0.1.beta" -m "release 0.1.beta 5d2c0b2
 
+enviar tags para o remote 
+git push origin master --tags
+
+git push origin master --follow-tags
+
+[push]
+	followTags=true
