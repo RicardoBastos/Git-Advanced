@@ -98,3 +98,10 @@ git push origin master --follow-tags
 
 [push]
 	followTags=true
+
+
+remover tag local e remote
+git tag -d "name_tag"
+git push --delete origin "name_tag"
+
+
