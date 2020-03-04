@@ -27,3 +27,9 @@ email e nome para projetos de empresa rodando no computador pessoal
 
 
 
+git status -s
+?? untracked file = arquivo novo
+
+staged area
+git add .
+git config --local --edit
