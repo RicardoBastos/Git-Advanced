@@ -104,4 +104,4 @@ remover tag local e remote
 git tag -d "name_tag"
 git push --delete origin "name_tag"
 
-
+git checkout -b newRelease origin/newRelease
